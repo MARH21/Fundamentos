@@ -1,0 +1,37 @@
+<html>
+<body>
+Ejercicio 9 - Fecha: 1/6/2022 - Hora:  -
+<br>
+<h1>
+  Calcular el área de un circulo, cuadrado o un rectangulo
+</h1>
+Autor: Mariam Rojas
+<br>
+<script>
+// Comentarios en una linea
+forma = prompt("Elige el área que quiere calcular 1 es un circulo, 2 es un cuadrado y 3 un rectangulo");
+
+if (forma == 1){
+  Radio = prompt("Ingrese el valor correspondiente al radio del circulo");
+  Area = PI * (Radio * Radio);
+  document.write ("el area del circulo es ");
+  document.write (Area);
+}
+else if (forma == 2) {
+  Lado = prompt("Ingrese el valor correspondiente a un lado del cuadrado");
+  Area = Lado * Lado;
+  document.write ("el area del cuadrado es");
+  document.write (Area);
+
+}
+else if (forma == 3) {
+  Altura = prompt("Ingrese el valor correspondiente a la altura del rectangulo");
+  Base = prompt("Ingrese el valor correspondiente a la base del cuadrado");
+  Area = Base * Altura;
+  document.write ("el area del rectangulo es");
+  document.write (Area);
+}
+
+</script>
+</body>
+</html>

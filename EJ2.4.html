@@ -1,0 +1,44 @@
+<html>
+<body>
+Ejercicio 4 - Fecha: 4/6/2022 - Hora:  -
+<br>
+<h1>
+Nuevo sueldo de empleados
+</h1>
+Autor: Mariam Rojas
+<br>
+<script>
+// Comentarios en una linea
+ sueldo = prompt("Ingrese sueldo")
+
+if (sueldo > 50000) {
+  	aumento = (sueldo * 40)/100;
+    nuevo_sueldo = sueldo + aumento;
+    document.write ("El aumento que le corresponde es de ");
+    document.write (aumento);
+    document.write ("y su nuevo sueldo es de ");
+    document.write (nuevo_sueldo);
+}
+else {
+  if (sueldo < 50000 || sueldo > 75000) {
+    aumento = (sueldo * 35)/100;
+    nuevo_sueldo = sueldo + aumento;
+    document.write ("El aumento que le corresponde es de ");
+    document.write (aumento);
+    document.write ("y su nuevo sueldo es de ");
+    document.write (nuevo_sueldo);
+  }
+}else {
+  if (50000 > 75000) {
+    aumento = (sueldo * 30)/100;
+    nuevo_sueldo = sueldo + aumento;
+    document.write ("El aumento que le corresponde es de ");
+    document.write (aumento);
+    document.write ("y su nuevo sueldo es de ");
+    document.write (nuevo_sueldo);
+  }
+
+}
+</script>
+</body>
+</html>
